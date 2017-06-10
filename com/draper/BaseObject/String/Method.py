@@ -8,5 +8,18 @@ print(S[0])
 S = 'Z' + S[1:]
 print(S)
 print(S.find('pa'))
-print(S = S.replace('pa', 'XYZ'))
+print(S.replace('pa', 'XYZ'))
 
+line = 'aaa,bbb,ccccc,dd'
+print(line.split(','))
+
+print(S.upper())
+print(line.rstrip())
+
+# 高级的格式化操作
+print('%s, eggs and %s' % ('spam', 'SPAM!'))
+print('{0}, eggs, and {1}'.format('spam', 'SPAM!'))
+
+# 以及寻求帮助
+print(dir(S))
+print(help(S.replace))  # 注意不用带括号
