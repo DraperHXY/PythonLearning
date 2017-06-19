@@ -1,7 +1,7 @@
 # 杨辉三角
 n = input()
 L = [1]
-for i in range(int(n, 2)):
+for i in range(int(n)):
     for j in L: print(j, end=" ")
     print("\n", end="")
     L.append(0)
