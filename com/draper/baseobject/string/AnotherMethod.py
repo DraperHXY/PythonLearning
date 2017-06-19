@@ -8,4 +8,3 @@ msg = """ aaaaaaaaaaaa
 bbb'''bbbbbbbbbb""bbbbbbb'bbbbb
 cccccccccccccc"""
 print(msg)
-# todo
