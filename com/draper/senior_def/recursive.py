@@ -28,3 +28,8 @@ def mysum4(L):
 
 
 print(mysum4(list(range(1, 101))))
+
+print(mysum3(['spam']))
+print(mysum4(['spam']))
+print(mysum4(['s', 'p', 'a', 'm']))
+print(mysum4(["spam", "eggs", "apples"]))
